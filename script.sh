@@ -1,8 +1,8 @@
 #!/bib/bash
 
-if [ ${UID} -ne 0 ]
+if [ 4 -le 5 ]
 then
-	echo "you need root access"
+	echo "This is true"
 fi	
 
 lscpu
